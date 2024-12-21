@@ -1,0 +1,130 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-image: url(fon.jpg);
+}
+
+html, body {
+  height: 100%;
+  margin: 6;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family:"Roboto"
+}
+
+.container {
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  top: 100px;
+  color:rgb(0, 174, 255);
+  font-size: 90px;
+  letter-spacing: .130rem;
+  text-transform: uppercase;
+}
+
+h2{
+  position: relative;
+  top:-30px;
+  right: -960px;
+  color:rgb(0, 174, 255);
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 7rem;
+}
+
+#wrapper {
+  width: 5000px; 
+  position: relative;
+  left: 0px; 
+  transition: left .5s ease-in-out;
+}
+
+.content {
+  float: left; 
+  width: 1250px;
+  height: 600px;
+  white-space: normal;
+  background-repeat: no-repeat;
+}
+
+#itemOne {
+  background-image: url(otkr1.jpg);
+}
+#itemTwo {
+  background-image: url(otkr2.jpg);
+}
+#itemThree {
+  background-image: url(otkr3.jpg)
+}
+
+#contentContainer {
+  width: 900px;
+  height: 600px;
+  overflow: hidden;
+  margin-right: 1%;
+  text-align: center;
+}
+  #navLinks {
+          width: 20%;
+  }
+  #navLinks ul {
+      margin: 0px;
+      padding: 0px;
+      display: inline-block;
+      margin-top: 6px;
+  }
+      #navLinks ul li {
+          float: left;
+          text-align: center;
+          margin: 10px;
+          list-style: none;
+          cursor: pointer;
+          background-color: lightgray;
+          padding: 90px;
+          border-radius: 10%;
+      }
+          #navLinks ul li:hover {
+              background-color: rgb(0, 174, 255);
+          }
+          #navLinks ul li.active {
+              background-color: #333333;
+              color: #FFFFFF;
+              outline-width: 7px;
+          }
+              #navLinks ul li.active:hover {
+                  background-color: #484848;
+                  color: #FFFFFF;
+              }
+#navLinks ul li.active {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+#navLinks ul li.active:hover {
+  background-color: #484848;
+  color: #FFFFFF;
+}
